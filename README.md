@@ -84,6 +84,10 @@ element.addEventListener("mousedown", () => {
 
 ```
 
+## Links
+
+[DOM Window Manager npm package](https://www.npmjs.com/package/dom-window-manager)
+
 ## License
 
 <a href="https://www.gnu.org/licenses/agpl-3.0.html"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/AGPLv3_Logo.svg" height="100px" /></a>
