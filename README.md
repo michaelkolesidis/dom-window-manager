@@ -15,7 +15,7 @@ DOM Window Manager consists of a single class, _WindowManager_, and a set of uti
 
 ## Demo
 
-Coming soon
+[Demo](https://dom-window-manager.vercel.app/)
 
 ## Instructions
 
