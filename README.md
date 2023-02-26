@@ -1,4 +1,4 @@
-![dwm logo](./dwm-logo.png)
+![DOM Window Manager logo](./dwm-logo.png)
 
 # DOM Window Manager
 
@@ -22,7 +22,7 @@ Coming soon
 At first, you need to import _WindowManager_ and _dragElement_ in each file that you create elements that you want to use with the DOM Window Manager. _WindowManager_ is the class that manages the elements and _dragElement_ is the utility function that makes elements draggable.
 
 ```
-import { WindowManager, dragElement }  from "dwm";
+import { WindowManager, dragElement }  from "dom-window-manager";
 ```
 
 Then, you have to instanciate the window manager in each file as well.
@@ -70,7 +70,7 @@ As you have seen, DOM Window Manager takes a very minimalist approach, providing
 ### All the code
 
 ```
-import { WindowManager, dragElement }  from "dwm";
+import { WindowManager, dragElement }  from "dom-window-manager";
 
 let windowManager = new WindowManager();
 const element = document.createElement("div");

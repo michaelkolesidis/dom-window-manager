@@ -1,5 +1,5 @@
 {
-  "name": "dwm",
+  "name": "dom-window-manager",
   "version": "1.0.0",
   "description": "DOM Window Manager is a simple window manager for DOM elements",
   "main": "dist/index.js",
