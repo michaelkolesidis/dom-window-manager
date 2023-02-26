@@ -4,6 +4,8 @@
 
 A simple window manager for DOM elements
 
+[Demo](https://dom-window-manager.vercel.app/)
+
 ## What it does
 
 1. Makes DOM elements draggable
@@ -12,10 +14,6 @@ A simple window manager for DOM elements
 ## Description
 
 DOM Window Manager consists of a single class, _WindowManager_, and a set of utility functions. _WindowManager_ uses the [singleton pattern](https://en.wikipedia.org/wiki/Singleton_pattern), effectively restricting the instantiation of the class to a singular instance to be used by all components, in any file.
-
-## Demo
-
-Coming soon
 
 ## Instructions
 
@@ -86,7 +84,7 @@ element.addEventListener("mousedown", () => {
 
 ## Links
 
-[DOM Window Manager npm package](https://www.npmjs.com/package/dom-window-manager)
+- [DOM Window Manager npm package](https://www.npmjs.com/package/dom-window-manager)
 
 ## License
 
