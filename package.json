@@ -1,0 +1,27 @@
+{
+  "name": "dwm",
+  "version": "1.0.0",
+  "description": "DOM Window Manager is a simple window manager for DOM elements",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelkolesidis/dom-window-manager.git"
+  },
+  "keywords": [
+    "dom",
+    "window manager"
+  ],
+  "author": "Michael Kolesidis <michael.kolesidis@gmail.com> (https://michaelkolesidis.com/)",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/michaelkolesidis/dom-window-manager/issues"
+  },
+  "homepage": "https://github.com/michaelkolesidis/dom-window-manager#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
