@@ -84,7 +84,7 @@ element.addEventListener("mousedown", () => {
 
 ## Links
 
-[DOM Window Manager npm package](https://www.npmjs.com/package/dom-window-manager)
+- [DOM Window Manager npm package](https://www.npmjs.com/package/dom-window-manager)
 
 ## License
 
