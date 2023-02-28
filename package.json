@@ -1,6 +1,6 @@
 {
   "name": "dom-window-manager",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "DOM Window Manager is a simple window manager for DOM elements",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

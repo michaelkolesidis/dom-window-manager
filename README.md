@@ -8,6 +8,8 @@ A simple window manager for DOM elements
 
 [Demo 2](https://collection-of-div-surrogates.vercel.app/)
 
+[Repository](https://github.com/michaelkolesidis/dom-window-manager)
+
 [npm package](https://www.npmjs.com/package/dom-window-manager)
 
 ## What it does
