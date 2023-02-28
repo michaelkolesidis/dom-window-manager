@@ -1,5 +1,6 @@
 // DOM Window Manager
 // https://github.com/michaelkolesidis/dom-window-manager
+// https://www.npmjs.com/package/dom-window-manager
 
 // Copyright (c) 2023 Michael Kolesidis (michael.kolesidis@gmail.com)
 // Licensed under the GNU Affero General Public License v3.0.

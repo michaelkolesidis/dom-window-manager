@@ -4,7 +4,11 @@
 
 A simple window manager for DOM elements
 
-[Demo](https://dom-window-manager.vercel.app/)
+[Demo 1](https://dom-window-manager.vercel.app/)
+
+[Demo 2](https://collection-of-div-surrogates.vercel.app/)
+
+[npm package](https://www.npmjs.com/package/dom-window-manager)
 
 ## What it does
 
@@ -81,10 +85,6 @@ element.addEventListener("mousedown", () => {
 });
 
 ```
-
-## Links
-
-- [DOM Window Manager npm package](https://www.npmjs.com/package/dom-window-manager)
 
 ## License
 
