@@ -4,6 +4,8 @@
 
 A simple window manager for DOM elements
 
+<a href='https://ko-fi.com/michaelkolesidis' target='_blank'><img src='https://cdn.ko-fi.com/cdn/kofi1.png' style='border:0px;height:45px;' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 [Demo 1](https://dom-window-manager.vercel.app/)
 
 [Demo 2](https://collection-of-div-surrogates.vercel.app/)
@@ -87,6 +89,12 @@ element.addEventListener("mousedown", () => {
 });
 
 ```
+
+## 💖 Support the Project
+
+Thank you so much for your interest in my project! If you want to go a step further and support my open source work, buy me a coffee:
+
+<a href='https://ko-fi.com/michaelkolesidis' target='_blank'><img src='https://cdn.ko-fi.com/cdn/kofi1.png' style='border:0px;height:45px;' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ## License
 
