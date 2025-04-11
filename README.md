@@ -33,13 +33,13 @@ DOM Window Manager consists of a single class, _WindowManager_, and a set of uti
 
 At first, you need to import _WindowManager_ and _dragElement_ in each file that you create elements that you want to use with the DOM Window Manager. _WindowManager_ is the class that manages the elements and _dragElement_ is the utility function that makes elements draggable.
 
-```
+```typescript
 import { WindowManager, dragElement }  from "dom-window-manager";
 ```
 
 Then, you have to instanciate the window manager in each file as well.
 
-```
+```typescript
 let windowManager = new WindowManager();
 ```
 
@@ -47,31 +47,41 @@ It takes an optional parameter, _base_, that is the initial z-index value that a
 
 Then, at some point you will create an element
 
-```
+```typescript
 const element = document.createElement("div");
 ```
 
 It could be any type of element (p, h1, div etc.). The only prerequisite, is to set its position attribute to **absolute**. It can be done either in JavaScript of in the CSS file.
 
-```
+```typescript
 element.style.position = "absolute";
 ```
 
 You can now call the dragElement function, with the element as its parameter.
 
-```
+```typescript
 dragElement(element);
+```
+
+This will make the **entire element** draggable.
+
+Optionally, you can pass a second argument to specify a **handle** (like a header) from which the element will be draggable, while the rest remains non-draggable:
+
+```typescript
+const header = document.createElement("div");
+element.appendChild(header);
+dragElement(element, header);
 ```
 
 You also need to set the elements z-index value to the base provided by _WindowManager_.
 
-```
+```typescript
 element.style.zIndex = windowManager.base;
 ```
 
 Finally, you will probably want to make the element come on top of all other elements when clicked.
 
-```
+```typescript
 element.addEventListener("mousedown", () => {
     element.style.zIndex = windowManager.moveOnTop();
 });
@@ -81,18 +91,29 @@ As you have seen, DOM Window Manager takes a very minimalist approach, providing
 
 ### All the code
 
-```
-import { WindowManager, dragElement }  from "dom-window-manager";
+```typescript
+import { WindowManager, dragElement } from "dom-window-manager";
 
 let windowManager = new WindowManager();
 const element = document.createElement("div");
 element.style.position = "absolute";
+
+// Optional: create a handle (like a header)
+const header = document.createElement("div");
+element.appendChild(header);
+
+// Drag entire element:
 dragElement(element);
+
+// OR: Drag only from header
+// dragElement(element, header);
+
 element.style.zIndex = windowManager.base;
 
 element.addEventListener("mousedown", () => {
-    element.style.zIndex = windowManager.moveOnTop();
+  element.style.zIndex = windowManager.moveOnTop();
 });
+
 
 ```
 
@@ -106,5 +127,5 @@ Thank you so much for your interest in my project! If you want to go a step furt
 
 <a href="https://www.gnu.org/licenses/agpl-3.0.html"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/AGPLv3_Logo.svg" height="100px" /></a>
 
-Copyright (c) 2023 Michael Kolesidis<br>
+Copyright (c) Michael Kolesidis  
 Licensed under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.html).
