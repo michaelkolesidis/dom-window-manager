@@ -12,8 +12,6 @@ A simple window manager for DOM elements
 
 [npm package](https://www.npmjs.com/package/dom-window-manager)
 
-<a href='https://ko-fi.com/michaelkolesidis' target='_blank'><img src='https://cdn.ko-fi.com/cdn/kofi1.png' style='border:0px;height:45px;' alt='Buy Me a Coffee at ko-fi.com' /></a>
-
 ![Attention! Free Software](./attention-free-software.png)
 
 This software is free (as in freedom). **If you use any part of this code, you must make your entire project's source code publicly available under the same license.** This applies whether you modify the code or use it as it is in your own project. This ensures that all modifications and derivative works remain free software, so that everyone can benefit. If you are not willing to comply with these terms, you must refrain from using any part of this code.
@@ -121,7 +119,7 @@ element.addEventListener("mousedown", () => {
 
 Thank you so much for your interest in my project! If you want to go a step further and support my open source work, buy me a coffee:
 
-<a href='https://ko-fi.com/michaelkolesidis' target='_blank'><img src='https://cdn.ko-fi.com/cdn/kofi1.png' style='border:0px;height:45px;' alt='Buy Me a Coffee at ko-fi.com' /></a>
+<a href='https://ko-fi.com/michaelkolesidis' target='_blank'><img src='https://cdn.ko-fi.com/cdn/kofi1.png' height="40px" alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ## License
 
